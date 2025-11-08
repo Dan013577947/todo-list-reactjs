@@ -28,14 +28,8 @@ body {
   border-radius: 4px;
   outline: none;
   min-width: 120px;
-  background-color: pink;
 }
 
-.input-date {
-  /* Set a high contrast color */
-  color: #111111 !important; /* Force black text */
-  -webkit-text-fill-color: #111111 !important; /* Fix for Safari/iOS-specific issues */
-}
 
 .btn-add,
 .btn-delete {
@@ -69,9 +63,8 @@ body {
   .input-text,
   .input-date {
     min-width: 90px;
-    font-size: 16px;
+    font-size: 15px;
     height: 17px;
-    background-color: red;
   }
 
   .btn-add,
