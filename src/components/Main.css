@@ -31,6 +31,12 @@ body {
   background-color: pink;
 }
 
+.input-date {
+  /* Set a high contrast color */
+  color: #111111 !important; /* Force black text */
+  -webkit-text-fill-color: #111111 !important; /* Fix for Safari/iOS-specific issues */
+}
+
 .btn-add,
 .btn-delete {
   font-size: 17px;
