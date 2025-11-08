@@ -64,6 +64,7 @@ function Main() {
           />
           <input
             type="date"
+            placeholder="Date"
             onChange={handleDate}
             onKeyDown={handleKeyDown}
             value={inputDate}
